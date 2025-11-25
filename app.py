@@ -88,3 +88,5 @@ if uploaded_file is not None:
 
         cm = confusion_matrix(y_true_encoded, y_pred_encoded, labels=labels_all)
         st.text("Confusion Matrix:\n" + str(cm))
+
+# End of Code.
